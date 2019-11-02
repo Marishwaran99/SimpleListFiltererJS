@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  margin: 2rem 0;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-decoration: none;
+}
+.input-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+input {
+  padding: 0.5rem;
+  width: 100%;
+}
+button {
+  background: #eee;
+  padding: 0.5rem 2rem;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2ch;
+  font-weight: bold;
+}
+.list-items {
+  width: 100%;
+  margin: 5rem;
+}
+li.list-header {
+  font-size: 1.4rem;
+  background: #eee;
+
+  padding: 0.5rem 0.5rem;
+}
+li.list-item {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+li.list-item:hover {
+  background: #eee;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    width: 40%;
+  }
+}
